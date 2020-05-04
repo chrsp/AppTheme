@@ -1,0 +1,13 @@
+[
+    {
+        "styleName":"primaryButton",
+        "backgroundColor":"colorSecondary",
+        "labelStyle":"buttonLeftWhite",
+        "cornerRadius":15
+    },
+    {
+        "styleName":"buttonGhostNormal",
+        "labelStyle":"buttonLeftGrey",
+        "backgroundColor":"clear"
+    },
+]

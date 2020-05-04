@@ -1,0 +1,194 @@
+[
+  {
+    "themeName": "base",
+    "colors": [
+      {
+        "name": "colorPrimary",
+        "hex": "fafafa"
+      },
+      {
+        "name": "colorOnPrimary",
+        "hex": "000000"
+      },
+      {
+        "name": "colorSecondary",
+        "hex": "fafafa"
+      },
+      {
+        "name": "colorStatusBar",
+        "hex": "e9e9e9"
+      },
+      {
+        "name": "colorSurface",
+        "hex": "ffffff"
+      },
+      {
+        "name": "colorOnSurface",
+        "hex": "000000"
+      },
+      {
+        "name": "colorOnSecondary",
+        "hex": "ffffff"
+      },
+      {
+        "name": "textColorPrimary",
+        "hex": "000000"
+      },
+      {
+        "name": "textColorSecondary",
+        "hex": "8e8e93"
+      },
+      {
+        "name": "textColorSecondaryVariant",
+        "hex": "f3f3f4"
+      },
+      {
+        "name": "colorError",
+        "hex": "cf5362"
+      },
+      {
+        "name": "colorOnError",
+        "hex": "ffffff"
+      },
+      {
+        "name": "rippleOnSecondaryColor",
+        "hex": "d8d8d8"
+      },
+      {
+        "name": "separatorColor",
+        "hex": "d8d8d8"
+      },
+      {
+        "name": "infoColorVariant",
+        "hex": "f1f7ff"
+      },
+      {
+        "name": "clear",
+        "hex": "ffffff",
+        "alpha": 0
+      },
+      {
+        "name": "navigationBar",
+        "hex": "FAFAFA",
+      }
+    ]
+  },
+  {
+      "themeName": "bulbasaur",
+      "parent": "base",
+      "colors": [
+          {
+            "name": "colorPrimary",
+            "hex": "cef79f"
+          },
+          {
+            "name": "colorSecondary",
+            "hex": "89C893"
+          },
+          {
+            "name": "colorSurface",
+            "hex": "83ba36"
+          },
+          {
+            "name": "textColorPrimary",
+            "hex": "2a513f"
+          },
+      ]
+  },
+  {
+      "themeName": "charmander",
+      "parent": "base",
+      "colors": [
+          {
+            "name": "colorPrimary",
+            "hex": "d6a381"
+          },
+          {
+            "name": "colorSecondary",
+            "hex": "f15f3e"
+          },
+          {
+            "name": "colorSurface",
+            "hex": "cc7656"
+          },
+          {
+            "name": "textColorPrimary",
+            "hex": "ffe26f"
+          },
+      ]
+  },
+  {
+      "themeName": "squirtle",
+      "parent": "base",
+      "colors": [
+          {
+            "name": "colorPrimary",
+            "hex": "9be8ea"
+          },
+          {
+            "name": "colorSecondary",
+            "hex": "65cad2"
+          },
+          {
+            "name": "colorSurface",
+            "hex": "65cad2"
+          },
+          {
+            "name": "textColorPrimary",
+            "hex": "448da3"
+          },
+      ]
+  },
+  {
+      "themeName": "pikachu",
+      "parent": "base",
+      "colors": [
+          {
+            "name": "colorPrimary",
+            "hex": "ffde5a"
+          },
+          {
+            "name": "colorSecondary",
+            "hex": "ffbd00"
+          },
+          {
+            "name": "colorSurface",
+            "hex": "f6ac29"
+          },
+          {
+            "name": "textColorPrimary",
+            "hex": "7c582d"
+          },
+      ]
+  },
+  {
+      "themeName": "light",
+      "parent": "base",
+      "colors": [
+          {
+            "name": "colorPrimary",
+            "hex": "f4dc26"
+          },
+          {
+            "name": "colorSurface",
+            "hex": "5c3613"
+          },
+      ]
+  },
+  {
+      "themeName": "dark",
+      "parent": "base",
+      "colors": [
+          {
+            "name": "colorPrimary",
+            "hex": "f4dc26"
+          },
+          {
+            "name": "colorSurface",
+            "hex": "5c3613"
+          },
+      ]
+  }
+]
+
+
