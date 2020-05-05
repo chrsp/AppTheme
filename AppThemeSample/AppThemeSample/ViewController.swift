@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var charmanderThemeLabel: UILabel!
     @IBOutlet weak var squirtleThemeLabel: UILabel!
     @IBOutlet weak var pikachuThemeLabel: UILabel!
-    @IBOutlet weak var randomButton: UIButton!
+    @IBOutlet weak var infoButton: UIButton!
     
     private var selectedTheme: AppTheme = .base
     
@@ -32,8 +32,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
         setupColorsAndStyles()
-        StylesApplicator.shared.applyStyle(ButtonStyleType.primaryButton, toButton: randomButton)
+        StylesApplicator.shared.applyStyle(ButtonStyleType.primaryButton, toButton: infoButton)
     }
     
     func setupColorsAndStyles(forTheme theme: AppTheme = .base) {
@@ -44,7 +47,7 @@ class ViewController: UIViewController {
             themeSwitch.onTintColor = ColorName.colorSurface.uiColor(forTheme: theme)
         }
         setupImageView()
-        StylesApplicator.shared.applyStyle(ButtonStyleType.primaryButton, toButton: randomButton, forTheme: selectedTheme)
+        StylesApplicator.shared.applyStyle(ButtonStyleType.primaryButton, toButton: infoButton, forTheme: selectedTheme)
     }
     
     private func setupLabels(selectedLabel: UILabel) {
@@ -56,7 +59,7 @@ class ViewController: UIViewController {
             }
         }
         
-        randomButton.titleLabel?.textColor = ColorName.textColorPrimary.uiColor(forTheme: selectedTheme)
+        infoButton.titleLabel?.textColor = ColorName.textColorPrimary.uiColor(forTheme: selectedTheme)
     }
     
     private func disableAllSwitchs(except selectedSwitch: UISwitch) {
@@ -91,6 +94,11 @@ class ViewController: UIViewController {
         disableAllSwitchs(except: sender as! UISwitch)
         setupColorsAndStyles(forTheme: .pikachu)
         setupLabels(selectedLabel: pikachuThemeLabel)
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        (segue.destination as! InfoViewController).selectedTheme = selectedTheme
     }
 }
 

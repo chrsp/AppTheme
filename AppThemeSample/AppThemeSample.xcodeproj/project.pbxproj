@@ -17,6 +17,7 @@
 		349213D82460B83B00418334 /* Themes.json in Resources */ = {isa = PBXBuildFile; fileRef = 349213D72460B83B00418334 /* Themes.json */; };
 		349213DB2460BE4B00418334 /* AppStyle-ButtonStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 349213D92460BE4B00418334 /* AppStyle-ButtonStyle.json */; };
 		349213DC2460BE4B00418334 /* AppStyle-LabelStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 349213DA2460BE4B00418334 /* AppStyle-LabelStyle.json */; };
+		349213E32460E2D600418334 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349213E22460E2D600418334 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		349213D72460B83B00418334 /* Themes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Themes.json; sourceTree = "<group>"; };
 		349213D92460BE4B00418334 /* AppStyle-ButtonStyle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "AppStyle-ButtonStyle.json"; sourceTree = "<group>"; };
 		349213DA2460BE4B00418334 /* AppStyle-LabelStyle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "AppStyle-LabelStyle.json"; sourceTree = "<group>"; };
+		349213E22460E2D600418334 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				349213B52460B05A00418334 /* Assets.xcassets */,
 				349213B72460B05A00418334 /* LaunchScreen.storyboard */,
 				349213BA2460B05A00418334 /* Info.plist */,
+				349213E22460E2D600418334 /* InfoViewController.swift */,
 			);
 			path = AppThemeSample;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				349213B12460B05700418334 /* ViewController.swift in Sources */,
 				349213AD2460B05700418334 /* AppDelegate.swift in Sources */,
+				349213E32460E2D600418334 /* InfoViewController.swift in Sources */,
 				349213AF2460B05700418334 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

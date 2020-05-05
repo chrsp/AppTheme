@@ -105,7 +105,10 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="yj0-Gx-4EV"/>
                                 </constraints>
-                                <state key="normal" title="Random"/>
+                                <state key="normal" title="Info"/>
+                                <connections>
+                                    <segue destination="3Hg-e2-716" kind="show" id="Opf-6C-5SO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -131,9 +134,9 @@
                         <outlet property="charmanderThemeLabel" destination="PYl-Wo-VGG" id="Fli-fO-pBK"/>
                         <outlet property="charmanderThemeSwitch" destination="5N7-Se-QKs" id="2pF-fV-Puy"/>
                         <outlet property="imageView" destination="bBO-ym-gGL" id="or1-Sn-PuY"/>
+                        <outlet property="infoButton" destination="fEK-MC-cws" id="zx8-CK-wUs"/>
                         <outlet property="pikachuThemeLabel" destination="m56-lY-b3i" id="r4A-ov-93U"/>
                         <outlet property="pikachuThemeSwitch" destination="BEX-Rf-Oy4" id="0WC-FQ-iIs"/>
-                        <outlet property="randomButton" destination="fEK-MC-cws" id="9ay-Ee-liX"/>
                         <outlet property="squirtleThemeLabel" destination="1g9-Li-w53" id="7Ex-iP-hI5"/>
                         <outlet property="squirtleThemeSwitch" destination="2QG-F8-VvO" id="KGd-nF-8dv"/>
                     </connections>
@@ -141,6 +144,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+        <!--Info View Controller-->
+        <scene sceneID="Ile-xJ-dLn">
+            <objects>
+                <viewController id="3Hg-e2-716" customClass="InfoViewController" customModule="AppThemeSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zXf-LD-LAV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="46r-xm-Dsi">
+                                <rect key="frame" x="20" y="16" width="374" height="772"/>
+                                <mutableString key="text">AppTheme makes easier to create a design system to your system. With AppTheme you don't have to worry in setting colors and view styles in your code. Everything is defined inside a JSON file, the Themes.json file. After that, all you want to do is reference the theme you want to use.   You can use a Theme for your entire application, or you can use multiple themes per page, selecting colors from one specifc theme for some components.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="46r-xm-Dsi" firstAttribute="top" secondItem="TM4-6J-ep7" secondAttribute="top" constant="16" id="JAf-nH-8bn"/>
+                            <constraint firstItem="TM4-6J-ep7" firstAttribute="bottom" secondItem="46r-xm-Dsi" secondAttribute="bottom" constant="20" id="Xv4-oT-c1C"/>
+                            <constraint firstAttribute="trailing" secondItem="46r-xm-Dsi" secondAttribute="trailing" constant="20" id="bKm-wI-6PX"/>
+                            <constraint firstItem="46r-xm-Dsi" firstAttribute="leading" secondItem="TM4-6J-ep7" secondAttribute="leading" constant="20" id="sZu-0t-1dE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TM4-6J-ep7"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9zp-Gi-FtG"/>
+                    <connections>
+                        <outlet property="infoLabel" destination="46r-xm-Dsi" id="YHN-HO-onT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2wn-iM-YHl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928" y="139"/>
         </scene>
     </scenes>
 </document>
