@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:AppTheme"
+      name = "AppTheme">
+      <FileRef
+         location = "group:StylableView.swift">
+      </FileRef>
+      <FileRef
+         location = "group:StyleSheetComponent.swift">
+      </FileRef>
+      <FileRef
+         location = "group:StylesApplicator.swift">
+      </FileRef>
+      <FileRef
+         location = "group:UIColor+Hex.swift">
+      </FileRef>
+      <FileRef
+         location = "group:LabelStyle.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Stylable.swift">
+      </FileRef>
+      <FileRef
+         location = "group:UserDefaultsStorage.swift">
+      </FileRef>
+      <FileRef
+         location = "group:AppColor.swift">
+      </FileRef>
+      <FileRef
+         location = "group:AppStyleSheet.swift">
+      </FileRef>
+      <FileRef
+         location = "group:AppTheme.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Theme.swift">
+      </FileRef>
+      <FileRef
+         location = "group:ColorName.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Info.plist">
+      </FileRef>
+      <FileRef
+         location = "group:ViewStyle.swift">
+      </FileRef>
+      <FileRef
+         location = "group:StyleGetter.swift">
+      </FileRef>
+      <FileRef
+         location = "group:ButtonStyle.swift">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:AppTheme.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:AppThemeSample"
+      name = "AppThemeSample">
+      <Group
+         location = "group:AppThemeSample"
+         name = "AppThemeSample">
+         <FileRef
+            location = "group:ViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:charmander.imageset"
+               name = "charmander.imageset">
+               <FileRef
+                  location = "group:004.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:squirtle.imageset"
+               name = "squirtle.imageset">
+               <FileRef
+                  location = "group:007.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:bulbasaur.imageset"
+               name = "bulbasaur.imageset">
+               <FileRef
+                  location = "group:bulbasaur.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <Group
+               location = "group:pikachu.imageset"
+               name = "pikachu.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:025.png">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:AppStyle-ButtonStyle.json">
+         </FileRef>
+         <FileRef
+            location = "group:InfoViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Themes.json">
+         </FileRef>
+         <FileRef
+            location = "group:AppStyle-LabelStyle.json">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:SceneDelegate.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:AppThemeSampleTests"
+         name = "AppThemeSampleTests">
+         <FileRef
+            location = "group:AppThemeSampleTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:AppThemeSample.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:AppThemeTests"
+      name = "AppThemeTests">
+      <FileRef
+         location = "group:AppThemeTests.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Info.plist">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:LICENSE.md">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <Group
+      location = "group:Resources"
+      name = "Resources">
+      <FileRef
+         location = "group:sample.gif">
+      </FileRef>
+   </Group>
+</Workspace>
