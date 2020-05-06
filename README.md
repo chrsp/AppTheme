@@ -6,14 +6,17 @@ App Theme was develop to help you to easily implement your design system to your
 
 To illustrate how this library can help you we gonna use the sample project contained here in this project. There you can choose one of your favorite starter pokemon... i mean... theme
 
-![](Resources/btheme1.png){:height="50%" width="50%"}
-![](Resources/btheme2.png){:height="50%" width="50%"}
-![](Resources/ctheme1.png){:height="50%" width="50%"}
-![](Resources/ctheme2.png){:height="50%" width="50%"}
-![](Resources/stheme1.png){:height="50%" width="50%"}
-![](Resources/stheme2.png){:height="50%" width="50%"}
-![](Resources/ptheme1.png){:height="50%" width="50%"}
-![](Resources/ptheme2.png){:height="50%" width="50%"}
+![](Resources/btheme1.png)
+![](Resources/btheme2.png)
+
+![](Resources/ctheme1.png)
+![](Resources/ctheme2.png)
+
+![](Resources/stheme1.png)
+![](Resources/stheme2.png)
+
+![](Resources/ptheme1.png)
+![](Resources/ptheme2.png)
 
 To easily create an app like these using dynamic themes with AppThemes, the first thing you have to do is set your Themes.json file. This is the core file of the library. Is where the AppTheme will get all the definition of all your themes. Take a look on the Themes.json found on the sample project, you can copy this to your project and use as a base.
 
